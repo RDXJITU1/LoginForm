@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("/loginForm.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    height: 650px;
+}
