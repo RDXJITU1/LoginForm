@@ -4,13 +4,14 @@ function Api() {
   return (
     <div>
        
-      <div className="bg-blue-500 w-full h-screen ">       
+      <div className="">       
          
+    <div className=" border border-b-2 h-[100px] ">   </div>
 
-         <div>  <Link to={"/"}> Home </Link></div>
+    <h2 className="text-3xl ml-[100px] font-bold"> Log in SuccessFull </h2>
+        
 
 
-          <p className="text-6xl text-white"> Application WorkSpace </p>
       </div>
     </div>
   )
