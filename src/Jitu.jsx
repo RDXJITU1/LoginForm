@@ -19,7 +19,7 @@ async function browserOff(e) {
     alert("password maximum 6 numreic")
     return;
   }
-  const response = await fetch("https://logbackend-2-0f2v.onrender.com/register/", {
+  const response = await fetch("https://python-7lqu.onrender.com/", {
     method:"POST",
     headers:{
       "Content-Type":"application/json"
