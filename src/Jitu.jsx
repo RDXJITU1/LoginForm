@@ -19,7 +19,7 @@ async function browserOff(e) {
     alert("password maximum 6 numreic")
     return;
   }
-  const response = await fetch("https://python-7lqu.onrender.com/", {
+  const response = await fetch("https://python-7lqu.onrender.com/login", {
     method:"POST",
     headers:{
       "Content-Type":"application/json"
@@ -27,7 +27,7 @@ async function browserOff(e) {
     body:JSON.stringify(form)
   })
   const data = await response.json()
-  navi("/",{
+  navi("/login",{
     state:form
   })
   console.log(data)
