@@ -7,8 +7,9 @@ function App() {
   return (
     <Routes>
       
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Jitu />} />
+     
+      <Route path="/" element={<Jitu />} />
+       <Route path="/login" element={<Login />} />
         <Route path="/api" element={<Api/>} />
     </Routes>
   );
