@@ -44,7 +44,7 @@ else{
                 <label> Remember Me </label><br/>                 
                 <button className="mt-[40px]  w-[200px] h-[40px]  text-xl font-bold border bg-white text-gray-800  rounded-2xl "> Log in </button>
              </form>
-             <h2> Don't have any accoun?<span><Link to={"/register"}>Register </Link> </span>  </h2>
+             <h2> Don't have any accoun?<span><Link to={"/"}>Register </Link> </span>  </h2>
         </div>
        </div> 
       </div> 
