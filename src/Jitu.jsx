@@ -61,7 +61,7 @@ async function browserOff(e) {
                   </div>
 
             <div> 
-              <p className="text-gray-400 ml-[40px] mt-[10px]"> Already A Member?<span className="text-blue-500" > <Link to={"/"}> Log In </Link>  </span> </p>
+              <p className="text-gray-400 ml-[40px] mt-[10px]"> Already A Member?<span className="text-blue-500" > <Link to={"/login"}> Log In </Link>  </span> </p>
               
              </div>      
             <form onSubmit={browserOff}>
